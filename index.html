@@ -7,5 +7,11 @@
     <body>
         <div id="board">
         </div>
+        <div id="controls">
+            <button onclick="generateBoard(prompt('what size?'))">Change Size</button>
+            <button onclick="generateBoard(currentGrid)">Reset</button>
+            <button onclick="generateBoard(currentGrid, iterateRandom(randomColors))">Random Colors</button>
+            <h1>Odin Project</h1>
+        </div>
     </body>
 </html>

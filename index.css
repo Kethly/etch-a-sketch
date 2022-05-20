@@ -20,3 +20,25 @@
     background-color:lightblue;
     flex: 1;
 }
+#controls{
+    margin-top: 10px;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    gap: 20px;
+    text-align:center;
+}
+#controls > * {
+    flex: 1;
+}
+#controls button {
+    border: 5px solid black;
+    border-radius: 7px;
+    font-size: 20px;
+}
+#controls button:hover {
+    border: 5px solid black;
+    border-radius: 7px;
+    font-size: 20px;
+    background-color: white;
+}
